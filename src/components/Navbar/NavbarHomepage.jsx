@@ -4,7 +4,7 @@ import './Navbar.scss';
 function NavbarHomepage() {
   return (
     <>
-      <Navbar bg="light" className="navbar-home">
+      <Navbar className="navbar-home sticky-top">
         <Container>
           <Navbar.Brand href="#home">Check List</Navbar.Brand>
           <Nav className="ms-auto">
@@ -12,10 +12,10 @@ function NavbarHomepage() {
               <Button variant="primary">Primary</Button>
             </Nav.Link> */}
             <Nav.Link href="#features">
-              <Button variant="primary" className="signup">Sign Up</Button>
+              <Button variant="primary" className="nav-signup">Sign Up</Button>
             </Nav.Link>
             <Nav.Link href="#pricing">
-              <Button variant="primary" className="login">Log In</Button>
+              <Button variant="primary" className="nav-login">Log In</Button>
             </Nav.Link>
           </Nav>
         </Container>
