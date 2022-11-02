@@ -3,14 +3,21 @@ $mid-blue: #2B4865;
 $navy-blue: #256D85;
 $soft-blue: #8FE3CF;
 
-.list-btn {
-  background-color: $navy-blue;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+.list-desc {
+  h3 {
+    font-weight: bold;
+    padding-top: 20%;
+  }
 
-  &:hover {
+  .list-btn {
     background-color: $navy-blue;
-    border-color: $navy-blue;
-    color: white;
-    transform: scale(1.02);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  
+    &:hover {
+      background-color: $navy-blue;
+      border-color: $navy-blue;
+      color: white;
+      transform: scale(1.02);
+    }
   }
 }
