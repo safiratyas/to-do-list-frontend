@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import './Navbar.scss';
 
@@ -11,12 +12,12 @@ function NavbarHomepage() {
             {/* <Nav.Link href="#home">
               <Button variant="primary">Primary</Button>
             </Nav.Link> */}
-            <Nav.Link href="#features">
-              <Button variant="primary" className="nav-signup">Sign Up</Button>
-            </Nav.Link>
-            <Nav.Link href="#pricing">
-              <Button variant="primary" className="nav-login">Log In</Button>
-            </Nav.Link>
+            <Link to="/register">
+              <Button variant="primary" className="nav-signup me-3">Sign Up</Button>
+            </Link>
+            <Link to="/login">
+              <Button variant="primary" className="nav-login me-3">Log In</Button>
+            </Link>
           </Nav>
         </Container>
       </Navbar>
