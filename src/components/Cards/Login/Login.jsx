@@ -1,21 +1,15 @@
 import { Link } from 'react-router-dom';
 import { Button, Card, Container, Form } from 'react-bootstrap';
-import './Register.scss';
+import './Login.scss';
 
-function RegisterCard() {
+function LoginCard() {
   return (
     <Container className="mt-5">
-      <Card className="register mx-auto">
+      <Card className="login mx-auto">
         <Card.Body>
-          <Card.Title className="mb-5 register-title">Let's Go!</Card.Title>
-          <Card.Text className="form-register">
+          <Card.Title className="mb-5 login-title">Welcome Back!</Card.Title>
+          <Card.Text className="form-login">
             <Form>
-              <Form.Group className="mb-3 register-form">
-                <Form.Label className="form-label">Full Name</Form.Label>
-                <Form.Control placeholder="Jane Doe"
-                  className="text" />
-              </Form.Group>
-
               <Form.Group className="mb-3">
                 <Form.Label className="form-label">Email</Form.Label>
                 <Form.Control type="email" placeholder="example@gmail.com"
@@ -27,14 +21,14 @@ function RegisterCard() {
                 <Form.Control type="password" placeholder="Minimum 8 characters"
                   className="text" />
               </Form.Group>
-              <Button variant="primary" type="submit" className="register-btn">
+              <Button variant="primary" type="submit" className="login-btn">
                 Check
               </Button>
 
               <div className="text-center mt-4 mb-3">
                 <Form.Group className="mx-auto">
-                  <Form.Text style={{ textAlign: 'center' }}>Already have an account? </Form.Text>
-                  <Link to="/login" style={{ textDecoration: 'none' }}><Form.Text style={{ color: '#2B4865', fontWeight: 'bold' }}>Log In Here</Form.Text></Link>
+                  <Form.Text style={{ textAlign: 'center' }}>Don't have an account? </Form.Text>
+                  <Link to="/register" style={{ textDecoration: 'none' }}><Form.Text style={{ color: '#2B4865', fontWeight: 'bold' }}>Sign Up Here</Form.Text></Link>
                 </Form.Group>
               </div>
             </Form>
@@ -45,4 +39,4 @@ function RegisterCard() {
   )
 }
 
-export default RegisterCard;
+export default LoginCard;
