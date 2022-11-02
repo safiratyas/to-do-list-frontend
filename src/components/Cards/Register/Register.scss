@@ -1,6 +1,5 @@
 $dark-blue: #002B5B;
-$mid-blue: #2B4865;
-$navy-blue: #256D85;
+$dark-green: #06A788;
 $soft-blue: #8FE3CF;
 
 .register {
@@ -26,15 +25,15 @@ $soft-blue: #8FE3CF;
 
   .register-btn {
     width: 100%;
-    background-color: $navy-blue;
-    border-color: $navy-blue;
+    background-color: $dark-green;
+    border-color: $dark-green;
     border-radius: 16px;
     height: 45px;
     color: white;
 
     &:hover {
-      background-color: $navy-blue;
-      border-color: $navy-blue;
+      background-color: $dark-green;
+      border-color: $dark-green;
       transform: scale(1.02);
       color: white;
     }

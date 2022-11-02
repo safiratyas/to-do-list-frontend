@@ -28,7 +28,7 @@ function LoginCard() {
               <div className="text-center mt-4 mb-3">
                 <Form.Group className="mx-auto">
                   <Form.Text style={{ textAlign: 'center' }}>Don't have an account? </Form.Text>
-                  <Link to="/register" style={{ textDecoration: 'none' }}><Form.Text style={{ color: '#2B4865', fontWeight: 'bold' }}>Sign Up Here</Form.Text></Link>
+                  <Link to="/register" style={{ textDecoration: 'none' }}><Form.Text style={{ color: '#06A788', fontWeight: 'bold' }}>Sign Up Here</Form.Text></Link>
                 </Form.Group>
               </div>
             </Form>

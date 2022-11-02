@@ -4,7 +4,7 @@ import './CardDesc.scss';
 
 function CardDescription() {
   return (
-    <Container>
+    <Container className="mb-5">
       <div className="card-desc mb-5">
         <h3>Why Choose CheckList?</h3>
       </div>

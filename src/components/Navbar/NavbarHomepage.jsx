@@ -7,7 +7,10 @@ function NavbarHomepage() {
     <>
       <Navbar className="navbar-home sticky-top">
         <Container>
-          <Navbar.Brand href="#home">Check List</Navbar.Brand>
+          <Navbar.Brand href="#home">
+            <img src={process.env.PUBLIC_URL + '/images/logo.png'} className="mx-auto" alt="list"
+            />
+          </Navbar.Brand>
           <Nav className="ms-auto">
             {/* <Nav.Link href="#home">
               <Button variant="primary">Primary</Button>
