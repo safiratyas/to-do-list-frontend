@@ -3,9 +3,10 @@ import {
   Routes,
   Route 
 } from 'react-router-dom';
-
-import Register from './components/Cards/Register/Register';
-import Login from './components/Cards/Login/Login';
+import { Provider } from 'react-redux';
+import store from './store';
+import Register from './pages/Register';
+import Login from './pages/Login';
 import Homepage from './pages/Homepage';
 
 import './styles/App.scss';
@@ -14,13 +15,15 @@ import '@fontsource/poppins';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/login" element={<Login />} />
-      </Routes>
-    </BrowserRouter>
+    <Provider store={store}>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </BrowserRouter>
+    </Provider>
   );
 }
 
