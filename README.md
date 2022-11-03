@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# TO DO LIST BACKEND
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Person Behind The Scene👨‍👧‍👧 :
 
-## Available Scripts
+```
+Safira Tyas Wandita 👩
+```
+## How it works
+Kindly check below to know how to install and use this repository. I also put my Vercel link which is connect with my Github.
 
-In the project directory, you can run:
+### Install Project
+```sh
+npm install
+```
+### Configurating React
+```sh
+npx create-react-app to-do-list
+```
+### Install Bootstrap
+```sh
+npm install react-bootstrap
+```
+### Install React Icons
+```sh
+npm install react-icons
+```
+### Check this link below for the vercel deploy
 
-### `npm start`
+Vercel Link: https://to-do-list-frontend-kappa.vercel.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Apa Kegunaan JSON pada REST API?
+```sh
+JSON (JavaScript Object Notation) merupakan bagian (subset) dari Javascript yang digunakan untuk pertukaran dan penyimpanan data. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+REST API membentuk back-end untuk aplikasi mobile dan web. Ketika mengembangkan aplikasi, kadang-kadang kita tidak memiliki REST API yang siap digunakan untuk tujuan pengembangan. Untuk melihat mobile atau web app beraksi, kita memerlukan server yang melempar beberapa data JSON dummy.
 
-### `npm test`
+Saat itulah REST API tiruan berfungsi. json-server menyediakan fungsi untuk mendirikan sebuah server REST API tiruan.
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Bagaimana REST API Bekerja?
 
-### `npm run build`
+```sh
+REST merupakan singkatan dari Representational State Transfer. Yang merupakan gaya arsitektur untuk merancang aplikasi yang saling terhubung. Dengan menggunakan HTTP sederhana untuk memungkinkan komunikasi antar mesin. Jadi, alih-alih menggunakan URL untuk memanipulasi beberapa informasi pengguna, REST mengirimkan permintaan HTTP seperti GET, POST, DELETE, dll ke URL untuk memanipulasi data.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Pada dasarnya rest api memiliki cara kerja yang dimulai oleh rest client yang mana bagian tersebut akan melakukan akses data atau resource pada rest server.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Sementara itu, masing-masing dari resource tersebut dibedakan berdasarkan pada Global ID atau URIs yaitu Universal Resource Identifier. Karena itulah data yang diberikan oleh rest server itu tadi pun dapat berupa format text, XML, atau bahkan JSON. 
+```
