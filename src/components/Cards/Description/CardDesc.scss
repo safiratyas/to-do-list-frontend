@@ -46,5 +46,14 @@ $dark-green: #06A788;
       transform: scale(1.02);
     }
   }
+}
 
+.form-list {
+  height: 50px;
+}
+
+.list-btn {
+  height: 50px;
+  width: 70px;
+  background-color: $dark-green;
 }
