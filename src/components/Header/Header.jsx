@@ -1,10 +1,8 @@
-import { Link, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Button, Container, Row, Col } from 'react-bootstrap';
 import './Header.scss';
 
-function Header() {
-  const params = useParams();
-
+function Header({ userData }) {
   return (
     <Container>
       <Row>
@@ -14,7 +12,7 @@ function Header() {
         <Col xs={6} className="list-desc">
           <h3>What is CheckList?</h3>
           <p>CheckList is a to do list website to make your life more structured with many benefits and it's all FREE. So, what are you waiting for? Click the button below and start make a list!</p>
-          <Link to={`/users/list/${params.id}`}>
+          <Link to={`/users/list/${userData.id}`}>
             <Button variant="primary" className="list-btn">Get Started</Button>
           </Link>
         </Col>

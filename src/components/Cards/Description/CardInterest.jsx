@@ -7,7 +7,7 @@ function CardInterest() {
       <Card className="interest-description">
         <Row>
           <Col xs={6}>
-            <Button className="interest-btn" style={{ marginLeft: '50px' }}>Free Forever</Button>
+            <Button className="interest-btn" href="/login" style={{ marginLeft: '50px', paddingTop: '2.5%' }}>Free Forever</Button>
           </Col>
           <Col xs={6}>
             <Card.Body>
